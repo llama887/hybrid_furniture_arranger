@@ -116,7 +116,9 @@ def read_xml_to_string(file_path):
 
 # Generate an image
 prompt = """
-Make a top down image of a 10 feet by 12 feet bedroom in the Japandi style.
+Make a top down image of a 10 feet by 12 feet bedroom in a maximalist style.
+Make sure the top down image is aligned to the frame of the image which means there should be no walls present.
+Be sure to follow the maximalist style and avoid generating things that are not furniture pieces (like no rugs).
 """
 seed = 42
 generator = torch.manual_seed(seed)
