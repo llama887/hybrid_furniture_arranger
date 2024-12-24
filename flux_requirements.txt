@@ -1,0 +1,7 @@
+diffusers @ git+https://github.com/huggingface/diffusers.git@5c94937dc7561767892d711e199f874dc35df041
+huggingface-hub==0.26.2
+protobuf==5.28.3
+sentencepiece==0.2.0
+transformers==4.46.2
+accelerate==1.1.1
+torch

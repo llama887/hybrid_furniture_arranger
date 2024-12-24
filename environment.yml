@@ -1,0 +1,13 @@
+name: hybrid_diffusion
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - pytorch
+  - pytorch-cuda=12.4
+  - torchaudio
+  - torchvision
+  - conda-forge::uv
+  - protobuf
+  - sentencepiece
+prefix: C:\Users\mailf\miniconda3\envs\hybrid_diffusion
